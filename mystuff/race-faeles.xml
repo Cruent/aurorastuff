@@ -4,10 +4,22 @@
 		<name>F'aeles</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
-		<update version="0.1.4">
+		<update version="0.1.5">
 			<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 		</update>
 	</info>
+	
+  <element name="F'aelian" type="Language" source="custom" id="ID_LANGUAGE_FAELIAN">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by f'aeli.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">F'aeli</set>
+			<set name="script">unknonwn</set>
+		</setters>
+  </element>
 
   <element name="F'aeles" type="Race" source="custom" id="ID_RACE_FAELES">
     <description>
@@ -44,6 +56,7 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ON_YOUR_FEET" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGIC_RESILIENCE" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_FAELIAN" />	    
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FAELES_SUBRACE" />
     </rules>
   </element>
