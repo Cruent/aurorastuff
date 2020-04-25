@@ -4,7 +4,7 @@
 		<name>F'aeles</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
-		<update version="0.1.3">
+		<update version="0.1.4">
 			<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 		</update>
 	</info>
@@ -120,7 +120,7 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FELINE_AGILITY" />
     </rules>
   </element>
-  <element name="Feline Agility" id="ID_WOTC_RACIAL_TRAIT_FELINE_AGILITY" source="custom" type="Racial Trait">
+  <element name="Feline Agility" id="ID_RACIAL_TRAIT_FELINE_AGILITY" source="custom" type="Racial Trait">
   <description>
     <p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.
     </p>
