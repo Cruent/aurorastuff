@@ -102,7 +102,7 @@
       <description>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.</description>
     </sheet>
     <rules>
-      <select name="Wizard Cantrip (Faeles)" type="Spell" supports="Wizard&&0"/>
+      <select name="Wizard Cantrip (Faeles)" type="Spell" supports="Wizard"/>
     </rules>
   </element>
  
