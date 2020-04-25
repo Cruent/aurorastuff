@@ -7,6 +7,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="race-faeles.xml" url="https://github.com/Cruent/aurorastuff/blob/master/mystuff/race-faeles.xml" />
+		<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 	</files>
 </index>
