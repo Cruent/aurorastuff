@@ -42,6 +42,7 @@
       <grant type="Size" id="ID_SIZE_SMALL" />
       <grant type="Vision" id="ID_VISION_DARKVISION" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ON_YOUR_FEET" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGIC_RESILIENCE" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
       <grant type="Language" id="ID_LANGUAGE_FAELIAN" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FAELES_SUBRACE" />
@@ -101,7 +102,7 @@
       <description>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.</description>
     </sheet>
     <rules>
-      <select name="Wizard Cantrip (Faeles)" type="Spell" supports="Wizard"/>
+      <select name="Wizard Cantrip (Faeles)" type="Spell" supports="Wizard&&0"/>
     </rules>
   </element>
  
@@ -117,6 +118,7 @@
     <sheet display="false" />
     <rules>
       <stat name="dexterity" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FELINE_AGILITY" />
     </rules>
   </element>
   <element name="Feline Agility" id="ID_WOTC_RACIAL_TRAIT_FELINE_AGILITY" source="custom" type="Racial Trait">
