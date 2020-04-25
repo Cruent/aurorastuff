@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
 		<update version="0.1.0">
-			<file name="race-faeles.xml" url="https://github.com/Cruent/aurorastuff/blob/master/mystuff/race-faeles.xml" />
+			<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 		</update>
 	</info>
 
