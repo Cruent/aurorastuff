@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Faeles</name>
+		<name>F'aeles</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
 		<update version="0.1.0">
@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-  <element name="Faeles" type="Race" source="custom" id="ID_RACE_FAELES">
+  <element name="F'aeles" type="Race" source="custom" id="ID_RACE_FAELES">
     <description>
       <p class="flavor">Not much is known about this race of small, catlike humanoids. Supposedly they hail from the far north, but even that information has been vagued by obscurity.</p>
 
@@ -17,7 +17,7 @@
       <p>Most faeli are born with an innate affinity for magic. Be it library-dwelling scholars or swird-swinging warriors, magic always intertwines their goals and everyday lives.</p>
       
       <h4>FAELES TRAITS</h4>
-      <p>Your faeles character has certain characteristics in common with all other faeli.</p>
+      <p>Your f'aeles character has certain characteristics in common with all other faeli.</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1, and your Dexterity score increases by 1.<br />
         <span class="feature">Age.</span>Faeli reach physical maturity around age 10 to 15, but can live to be over a thousand years old.<br />
@@ -44,7 +44,6 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ON_YOUR_FEET" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGIC_RESILIENCE" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
-      <grant type="Language" id="ID_LANGUAGE_FAELIAN" />
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FAELES_SUBRACE" />
     </rules>
   </element>
@@ -67,21 +66,21 @@
     </sheet>
   </element>
 
-  <element name="Faeles  Subrace" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_FAELES_SUBRACE">
+  <element name="F'aeles  Subrace" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_FAELES_SUBRACE">
     <description>
       <p>Two subraces of faeli exist, pureblood and feralborn. Choose one of these subraces.</p>
     </description>
     <sheet display="false" />
     <rules>
-      <select type="Sub Race" name="Faeles Subrace" supports="Faeles" />
+      <select type="Sub Race" name="F'aeles Subrace" supports="F'aeles" />
     </rules>
   </element>
 
 
   <element name="Pureblood" type="Sub Race" source="custom" id="ID_SUB_RACE_PUREBLOOD">
-    <supports>Faeles</supports>
+    <supports>F'aeles</supports>
     <description>
-      <p>A pureblood faeles has origins in pure faelian society - their magical heritage is untainted and they show great promise in the arts of wizardry.</p>
+      <p>A pureblood f'aeles has origins in pure faelian society - their magical heritage is untainted and they show great promise in the arts of wizardry.</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1.<br />
         <span class="feature">Innate Magic.</span>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.<br />
@@ -102,14 +101,14 @@
       <description>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.</description>
     </sheet>
     <rules>
-      <select name="Wizard Cantrip (Faeles)" type="Spell" supports="Wizard"/>
+      <select name="Wizard Cantrip (F'aeles)" type="Spell" supports="Wizard&amp;&amp;0"/>
     </rules>
   </element>
  
   <element name="Feralborn" type="Sub Race" source="custom" id="ID_SUB_RACE_FERALBORN">
-    <supports>Faeles</supports>
+    <supports>F'aeles</supports>
     <description>
-      <p>Feralborn faeli were brought into the world with an uncommon faeles birth defect that prevents them from using or storing any sort of magic. They have more catlike features, including a thin layer or fur that covers their body. NOTE: This type of faeles is incapable of casting spells! Do not take any classes that are capable of casting spells!</p>
+      <p>Feralborn faeli were brought into the world with an uncommon f'aeles birth defect that prevents them from using or storing any sort of magic. They have more catlike features, including a thin layer or fur that covers their body. NOTE: This type of f'aeles is incapable of casting spells! Do not take any classes that are capable of casting spells!</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 1.<br />
         <span class="feature">Feline Agility.</span>Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns. <br/>
