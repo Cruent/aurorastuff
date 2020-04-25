@@ -4,7 +4,7 @@
 		<name>F'aeles</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 		</update>
 	</info>
@@ -14,20 +14,20 @@
       <p class="flavor">Not much is known about this race of small, catlike humanoids. Supposedly they hail from the far north, but even that information has been vagued by obscurity.</p>
 
       <h4>Magical Affinity</h4>
-      <p>Most faeli are born with an innate affinity for magic. Be it library-dwelling scholars or swird-swinging warriors, magic always intertwines their goals and everyday lives.</p>
+      <p>Most f'aeli are born with an innate affinity for magic. Be it library-dwelling scholars or swird-swinging warriors, magic always intertwines their goals and everyday lives.</p>
       
       <h4>FAELES TRAITS</h4>
-      <p>Your f'aeles character has certain characteristics in common with all other faeli.</p>
+      <p>Your f'aeles character has certain characteristics in common with all other f'aeli.</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1, and your Dexterity score increases by 1.<br />
-        <span class="feature">Age.</span>Faeli reach physical maturity around age 10 to 15, but can live to be over a thousand years old.<br />
-        <span class="feature">Alignment.</span>Faeli typically care about their own place in the world most of all, tending towards neutral alignments.<br />
-        <span class="feature">Size.</span>Faeli are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.<br />
+        <span class="feature">Age.</span>F'aeli reach physical maturity around age 10 to 15, but can live to be over a thousand years old.<br />
+        <span class="feature">Alignment.</span>F'aeli typically care about their own place in the world most of all, tending towards neutral alignments.<br />
+        <span class="feature">Size.</span>F'aeli are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.<br />
         <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br />
         <span class="feature">Darkvision.</span>Your catlike heritage and life in the dark north grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray.<br />
         <span class="feature">On Your Feet.</span>You have resistance to falling damage, and when you fall, you can choose to land on your feet.<br />
-        <span class="feature">Languages.</span>You can speak, read, and write Common and Faelian. The Faelian language has mostly been lost to time, and is only practiced by a select few scholars and librarians.<br />
-        <span class="feature">Subrace.</span>Two subraces of faeli exist, pureblood and feralborn. Choose one of these subraces.<br />
+        <span class="feature">Languages.</span>You can speak, read, and write Common and F'aelian. The F'aelian language has mostly been lost to time, and is only practiced by a select few scholars and librarians.<br />
+        <span class="feature">Subrace.</span>Two subraces of f'aeli exist, pureblood and feralborn. Choose one of these subraces.<br />
       </p>
     </description>
     <sheet display="false" />
@@ -66,21 +66,21 @@
     </sheet>
   </element>
 
-  <element name="F'aeles  Subrace" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_FAELES_SUBRACE">
+  <element name="Faeles  Subrace" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_FAELES_SUBRACE">
     <description>
-      <p>Two subraces of faeli exist, pureblood and feralborn. Choose one of these subraces.</p>
+      <p>Two subraces of f'aeli exist, pureblood and feralborn. Choose one of these subraces.</p>
     </description>
     <sheet display="false" />
     <rules>
-      <select type="Sub Race" name="F'aeles Subrace" supports="F'aeles" />
+      <select type="Sub Race" name="Faeles Subrace" supports="Faeles" />
     </rules>
   </element>
 
 
   <element name="Pureblood" type="Sub Race" source="custom" id="ID_SUB_RACE_PUREBLOOD">
-    <supports>F'aeles</supports>
+    <supports>Faeles</supports>
     <description>
-      <p>A pureblood f'aeles has origins in pure faelian society - their magical heritage is untainted and they show great promise in the arts of wizardry.</p>
+      <p>A pureblood f'aeles has origins in pure f'aelian society - their magical heritage is untainted and they show great promise in the arts of wizardry.</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1.<br />
         <span class="feature">Innate Magic.</span>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.<br />
@@ -106,9 +106,9 @@
   </element>
  
   <element name="Feralborn" type="Sub Race" source="custom" id="ID_SUB_RACE_FERALBORN">
-    <supports>F'aeles</supports>
+    <supports>Faeles</supports>
     <description>
-      <p>Feralborn faeli were brought into the world with an uncommon f'aeles birth defect that prevents them from using or storing any sort of magic. They have more catlike features, including a thin layer or fur that covers their body. NOTE: This type of f'aeles is incapable of casting spells! Do not take any classes that are capable of casting spells!</p>
+      <p>Feralborn f'aeli were brought into the world with an uncommon f'aeles birth defect that prevents them from using or storing any sort of magic. They have more catlike features, including a thin layer or fur that covers their body. NOTE: This type of f'aeles is incapable of casting spells! Do not take any classes that are capable of casting spells!</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 1.<br />
         <span class="feature">Feline Agility.</span>Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns. <br/>
