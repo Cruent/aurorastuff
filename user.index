@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>User</name>
+		<description>Local stuff.</description>
+		<author url="http://dnd.wizards.com">Custom</author>
+		<update version="0.1.0">
+			<file name="user.index" url="file:///C:/Users/User/Dropbox/aurora/custom/user.index" />
+		</update>
+	</info>
+	<files>
+		<file name="mystuff.index" url="https://github.com/Cruent/aurorastuff/blob/master/mystuff.index" />
+	</files>
+</index>
