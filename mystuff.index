@@ -3,7 +3,7 @@
 	<info>
 		<name>My Stuff</name>
 		<update version="0.1.0">
-			<file name="mystuff.index" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff.index" />
+			<file name="mystuff.index" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff.index"  />
 		</update>
 	</info>
 	<files>
