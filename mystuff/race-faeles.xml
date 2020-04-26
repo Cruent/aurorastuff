@@ -4,7 +4,7 @@
 		<name>F'aeles</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 		</update>
 	</info>
@@ -31,14 +31,15 @@
       <h4>FAELES TRAITS</h4>
       <p>Your f'aeles character has certain characteristics in common with all other f'aeli.</p>
       <p>
-        <span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1, and your Dexterity score increases by 1.<br />
+        <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 1, and your Intelligence score increases by 1.<br />
         <span class="feature">Age.</span>F'aeli reach physical maturity around age 10 to 15, but can live to be over a thousand years old.<br />
         <span class="feature">Alignment.</span>F'aeli typically care about their own place in the world most of all, tending towards neutral alignments.<br />
         <span class="feature">Size.</span>F'aeli are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.<br />
         <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br />
         <span class="feature">Darkvision.</span>Your catlike heritage and life in the dark north grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray.<br />
         <span class="feature">On Your Feet.</span>You have resistance to falling damage, and when you fall, you can choose to land on your feet.<br />
-        <span class="feature">Languages.</span>You can speak, read, and write Common and F'aelian. The F'aelian language has mostly been lost to time, and is only practiced by a select few scholars and librarians.<br />
+	<span class="feature">Magic Resilience.</span>You can add half your proficiency bonus (rounded down) to saving throws against magic that you are not proficient in.<br />
+	<span class="feature">Languages.</span>You can speak, read, and write Common and F'aelian. The F'aelian language has mostly been lost to time, and is only practiced by a select few scholars and librarians.<br />
         <span class="feature">Subrace.</span>Two subraces of f'aeli exist, pureblood and feralborn. Choose one of these subraces.<br />
       </p>
     </description>
