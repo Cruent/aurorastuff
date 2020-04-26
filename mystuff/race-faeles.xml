@@ -35,10 +35,9 @@
         <span class="feature">Age.</span>F'aeli reach physical maturity around age 10 to 15, but can live to be over a thousand years old.<br />
         <span class="feature">Alignment.</span>F'aeli typically care about their own place in the world most of all, tending towards neutral alignments.<br />
         <span class="feature">Size.</span>F'aeli are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.<br />
-        <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br />
+        <span class="feature">Speed.</span>Despite your small stature, you are surprisingly quick on your feet. Your base walking speed is 30 feet.<br />
         <span class="feature">Darkvision.</span>Your catlike heritage and life in the dark north grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray.<br />
-        <span class="feature">On Your Feet.</span>You have resistance to falling damage, and when you fall, you can choose to land on your feet.<br />
-	<span class="feature">Magic Resilience.</span>You can add half your proficiency bonus (rounded down) to saving throws against magic that you are not proficient in.<br />
+        <span class="feature">Perceptive Focus.</span>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception check (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. <br />
 	<span class="feature">Languages.</span>You can speak, read, and write Common and F'aelian. The F'aelian language has mostly been lost to time, and is only practiced by a select few scholars and librarians.<br />
         <span class="feature">Subrace.</span>Two subraces of f'aeli exist, pureblood and feralborn. Choose one of these subraces.<br />
       </p>
@@ -51,32 +50,22 @@
     <rules>
       <stat name="intelligence" value="1" />
       <stat name="dexterity" value="1" />
-      <stat name="innate speed" value="25" bonus="base" />
+      <stat name="innate speed" value="30" bonus="base" />
       <grant type="Size" id="ID_SIZE_SMALL" />
       <grant type="Vision" id="ID_VISION_DARKVISION" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ON_YOUR_FEET" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGIC_RESILIENCE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_PERCEPTIVE_FOCUS" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
       <grant type="Language" id="ID_LANGUAGE_FAELIAN" />	    
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FAELES_SUBRACE" />
     </rules>
   </element>
 
-  <element name="On Your Feet" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_ON_YOUR_FEET">
+  <element name="Perceptive Focus" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_PERCEPTIVE_FOCUS">
     <description>
-      <p>You have resistance to falling damage, and when you fall, you can choose to land on your feet.</p>
+      <p>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception check (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. </p>
     </description>
     <sheet>
-      <description>You have resistance to falling damage, and when you fall, you can choose to land on your feet.</description>
-    </sheet>
-  </element>
-
- <element name="Magic Resilience" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_MAGIC_RESILIENCE">
-    <description>
-      <p>You can add half your proficiency bonus (rounded down) to saving throws against magic that you are not proficient in.</p>
-    </description>
-    <sheet>
-      <description>You can add half your proficiency bonus (rounded down) to saving throws against magic that you are not proficient in.</description>
+      <description>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception check (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. </description>
     </sheet>
   </element>
 
@@ -97,50 +86,64 @@
       <p>A pureblood f'aeles has origins in pure f'aelian society - their magical heritage is untainted and they show great promise in the arts of wizardry.</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 1.<br />
-        <span class="feature">Innate Magic.</span>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.<br />
+        <span class="feature">Magical Heritage.</span>You know the Prestidigitation cantrip. Additionally, you can cast the Detect Magic spell once with this trait and regain the ability to do so when you finish a short or long rest. <br />
+	<span class="feature">Mastery Over Magic</span>Whenever you deal any type of damage, you may choose to change it into any other type of damage, and it becomes magical damage if it wasn't already. You can use this trait a number of times equal to your highest ability modifier. When you finish a short or long rest, you regain all expended uses. <br />
       </p>
     </description>
     <sheet display="false" />
     <rules>
       <stat name="intelligence" value="1" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_INNATE_MAGIC" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MAGICAL_HERITAGE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASTERY_OVER_MAGIC" />
     </rules>
   </element>
 
-  <element name="Innate Magic" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_INNATE_MAGIC">
+  <element name="Magical Heritage" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_MAGICAL_HERITAGE">
     <description>
-      <p>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.</p>
+      <p>You know the Prestidigitation cantrip. Additionally, you can cast the Detect Magic spell once with this trait and regain the ability to do so when you finish a short or long rest.</p>
     </description>
     <sheet>
-      <description>You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for this spell (if applicable). Additionally, you are able to detect the magical nature of an object by touch, and you can learn its school of magic, if any.</description>
+      <description>You know the Prestidigitation cantrip. Additionally, you can cast the Detect Magic spell once with this trait and regain the ability to do so when you finish a short or long rest.</description>
     </sheet>
     <rules>
-      <select name="Wizard Cantrip (F'aeles)" type="Spell" supports="Wizard"/>
+      <grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+      <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="1" />
     </rules>
   </element>
  
+ <element name="Mastery Over Magic" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_MASTERY_OVER_MAGIC">
+    <description>
+      <p>Whenever you deal any type of damage, you may choose to change it into any other type of damage, and it becomes magical damage if it wasn't already. You can use this trait a number of times equal to your highest ability modifier. When you finish a short or long rest, you regain all expended uses.</p>
+    </description>
+    <sheet>
+      <description>Whenever you deal any type of damage, you may choose to change it into any other type of damage, and it becomes magical damage if it wasn't already. You can use this trait a number of times equal to your highest ability modifier. When you finish a short or long rest, you regain all expended uses.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>	
+	
   <element name="Feralborn" type="Sub Race" source="custom" id="ID_SUB_RACE_FERALBORN">
     <supports>Faeles</supports>
     <description>
       <p>Feralborn f'aeli were brought into the world with an uncommon f'aeles birth defect that prevents them from using or storing any sort of magic. They have more catlike features, including a thin layer or fur that covers their body. NOTE: This type of f'aeles is incapable of casting spells! Do not take any classes that are capable of casting spells!</p>
       <p>
         <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 1.<br />
-        <span class="feature">Feline Agility.</span>Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the tum. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns. <br/>
+        <span class="feature">Devoid of Magic.</span>Your body is incapable of allowing magic to flow through it. You cannot make use of any Spellcasting features and cannot cast spells or create spell effects from any sources. Attuning to magic items takes you an uninterrupted long rest, and you can only be attuned to one magic item at a time. You cannot be a willing target of any spell or magical effect, and you have advantage on saving throws against all hostile spells and other hostile magical effects. <br/>
       </p>
     </description>
     <sheet display="false" />
     <rules>
       <stat name="dexterity" value="1" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FELINE_AGILITY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DEVOID_OF_MAGIC" />
     </rules>
   </element>
-  <element name="Feline Agility" id="ID_RACIAL_TRAIT_FELINE_AGILITY" source="custom" type="Racial Trait">
+  <element name="Devoid of Magic" id="ID_RACIAL_TRAIT_DEVOID_OF_MAGIC" source="custom" type="Racial Trait">
   <description>
-    <p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.
+    <p>Your body is incapable of allowing magic to flow through it. You cannot make use of any Spellcasting features and cannot cast spells or create spell effects from any sources. Attuning to magic items takes you an uninterrupted long rest, and you can only be attuned to one magic item at a time. You cannot be a willing target of any spell or magical effect, and you have advantage on saving throws against all hostile spells and other hostile magical effects.
     </p>
   </description>
 <sheet>
-  <description>When you move on your turm in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.
+  <description>Your body is incapable of allowing magic to flow through it. You cannot make use of any Spellcasting features and cannot cast spells or create spell effects from any sources. Attuning to magic items takes you an uninterrupted long rest, and you can only be attuned to one magic item at a time. You cannot be a willing target of any spell or magical effect, and you have advantage on saving throws against all hostile spells and other hostile magical effects.
   </description>
 </sheet>
 </element>
