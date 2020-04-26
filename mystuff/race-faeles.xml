@@ -4,7 +4,7 @@
 		<name>F'aeles</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
-		<update version="0.1.9">
+		<update version="0.1.10">
 			<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 		</update>
 	</info>
@@ -69,19 +69,19 @@
     </sheet>
   </element>
 
-  <element name="Faeles  Subrace" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_FAELES_SUBRACE">
+  <element name="F'aeles  Subrace" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_FAELES_SUBRACE">
     <description>
       <p>Two subraces of f'aeli exist, pureblood and feralborn. Choose one of these subraces.</p>
     </description>
     <sheet display="false" />
     <rules>
-      <select type="Sub Race" name="Faeles Subrace" supports="Faeles" />
+      <select type="Sub Race" name="F'aeles Subrace" supports="F'aeles" />
     </rules>
   </element>
 
 
-  <element name="Pureblood" type="Sub Race" source="custom" id="ID_SUB_RACE_PUREBLOOD">
-    <supports>Faeles</supports>
+  <element name="Pureblood F'aeles" type="Sub Race" source="custom" id="ID_SUB_RACE_PUREBLOOD_FAELES">
+    <supports>F'aeles</supports>
     <description>
       <p>A pureblood f'aeles has origins in pure f'aelian society - their magical heritage is untainted and they show great promise in the arts of wizardry.</p>
       <p>
@@ -122,8 +122,8 @@
     </rules>
   </element>	
 	
-  <element name="Feralborn" type="Sub Race" source="custom" id="ID_SUB_RACE_FERALBORN">
-    <supports>Faeles</supports>
+  <element name="Feralborn F'aeles" type="Sub Race" source="custom" id="ID_SUB_RACE_FERALBORN_FAELES">
+    <supports>F'aeles</supports>
     <description>
       <p>Feralborn f'aeli were brought into the world with an uncommon f'aeles birth defect that prevents them from using or storing any sort of magic. They have more catlike features, including a thin layer or fur that covers their body. NOTE: This type of f'aeles is incapable of casting spells! Do not take any classes that are capable of casting spells!</p>
       <p>
