@@ -35,9 +35,9 @@
         <span class="feature">Age.</span>F'aeli reach physical maturity around age 10 to 15, but can live to be over a thousand years old.<br />
         <span class="feature">Alignment.</span>F'aeli typically care about their own place in the world most of all, tending towards neutral alignments.<br />
         <span class="feature">Size.</span>F'aeli are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.<br />
-        <span class="feature">Speed.</span>Despite your small stature, you are surprisingly quick on your feet. Your base walking speed is 30 feet.<br />
+        <span class="feature">Speed.</span>DYou are surprisingly quick on your feet desspite your small stature. Your base walking speed is 30 feet.<br />
         <span class="feature">Darkvision.</span>Your catlike heritage and life in the dark north grants you superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray.<br />
-        <span class="feature">Perceptive Focus.</span>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception check (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. <br />
+        <span class="feature">Perceptive Focus.</span>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception checks (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. <br />
 	<span class="feature">Languages.</span>You can speak, read, and write Common and F'aelian. The F'aelian language has mostly been lost to time, and is only practiced by a select few scholars and librarians.<br />
         <span class="feature">Subrace.</span>Two subraces of f'aeli exist, pureblood and feralborn. Choose one of these subraces.<br />
       </p>
@@ -62,10 +62,10 @@
 
   <element name="Perceptive Focus" type="Racial Trait" source="custom" id="ID_RACIAL_TRAIT_PERCEPTIVE_FOCUS">
     <description>
-      <p>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception check (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. </p>
+      <p>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception checks (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. </p>
     </description>
     <sheet>
-      <description>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception check (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. </description>
+      <description>As an action, you can begin focusing entirely on one of your senses: sight, hearing or smell. Each minute spent focusing on that sense with this trait grants you a +1 bonus to relevant Perception checks (up to a maximum of +10). Anytime while focusing, you may use your action to perform a Perception check using only the relevant sense. During this time, you cannot move or perform any other actions, and you have disadvantage on saving throws and Perception checks that don't use the relevant sense. </description>
     </sheet>
   </element>
 
