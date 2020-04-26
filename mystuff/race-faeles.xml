@@ -4,7 +4,7 @@
 		<name>F'aeles</name>
 		<description></description>
 		<author url="http://dnd.wizards.com">Chieri</author>
-		<update version="0.1.8">
+		<update version="0.1.9">
 			<file name="race-faeles.xml" url="https://raw.githubusercontent.com/Cruent/aurorastuff/master/mystuff/race-faeles.xml" />
 		</update>
 	</info>
@@ -107,7 +107,7 @@
     </sheet>
     <rules>
       <grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
-      <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="1" />
+      <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
     </rules>
   </element>
  
